@@ -9,15 +9,16 @@
 <body>
     <header>
         <h1>Lista de tarefas</h1>
-        <input type="button" value="Adicionar+" class="botao">
+        <input type="button" value="Adicionar+" class="botao" id="add">
     </header>
     <main>
         <form>
-            Nome:
+            <label for="iname">Nome:</label>
             <input type="text" name="name" id="iname">
-            <input type="button" value="Cadastrar" class="botao">
+            <input type="submit" value="Cadastrar" class="botao" id="cadastro">
         </form>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
 </body>
-<script src="main.js"></script>
 </html>
