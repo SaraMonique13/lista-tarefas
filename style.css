@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(78, 36, 78);
+    color: white;
+    padding: 16px;
+    text-align: center;
+    border-bottom: 10px solid rgb(32, 1, 32);
+}
+
+form{
+    padding: 16px;
+    background-color: rgb(235, 177, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+input#botao{
+    background-color: green;
+}
