@@ -12,6 +12,9 @@ body{
 
 header{
     background-color: rgb(78, 36, 78);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: white;
     padding: 16px;
     text-align: center;
@@ -19,7 +22,7 @@ header{
 }
 
 form{
-    padding: 16px;
+    padding: 30px;
     background-color: rgb(235, 177, 235);
     display: flex;
     justify-content: center;
@@ -30,4 +33,12 @@ input{
     width: 200px;
     height: 25px;
     margin-right: 10px;
+}
+
+.botao{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
