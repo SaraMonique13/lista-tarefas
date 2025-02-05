@@ -41,3 +41,16 @@ input{
     border: none;
     cursor: pointer;
 }
+
+section{
+    background-color: rgb(238, 234, 238);
+    height: 100vh;
+}
+
+ul li{
+    
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid rgb(32, 1, 32); ;
+    list-style: none;
+}
