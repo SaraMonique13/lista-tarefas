@@ -7,4 +7,6 @@ $(document).ready(function (){
     $('#cadastro').click(function(){
         $('form').slideUp()
     })
+
+    
 })
