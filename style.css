@@ -52,5 +52,6 @@ ul li{
     text-align: center;
     padding: 20px;
     border-bottom: 2px solid rgb(32, 1, 32); ;
-    list-style: none;
+    list-style: circle;
+    list-style-position: inside;
 }
